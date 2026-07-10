@@ -1,6 +1,19 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home";
+
 const App = () => {
   return (
-    <div className="text-4xl font-bold text-center mt-10">Dance App v2 🎬</div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        {" "}
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 };
 
