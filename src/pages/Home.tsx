@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-import hero from "../assets/images/hero_img.jpeg";
+import hero from "../assets/images/hero_img.webp";
 import Stats from "../components/UI/Stats";
-import FeaturedClasses from "../components/UI/FeaturedClasses";
+import DanceClasses from "../components/UI/DanceClasses";
 
 const Home = () => {
   return (
@@ -34,7 +34,7 @@ const Home = () => {
             <div className="mt-10 flex gap-4">
               <Link
                 to="/classes"
-                className="rounded-full bg-amber-700 px-8 py-3 font-semibold text-gray-900 hover:bg-amber-600 transition"
+                className="rounded-full bg-amber-700 px-8 py-3 font-semibold text-white hover:bg-amber-600 transition"
               >
                 Join a Class
               </Link>
@@ -51,7 +51,7 @@ const Home = () => {
       </section>
 
       <Stats />
-      <FeaturedClasses />
+      <DanceClasses />
     </>
   );
 };

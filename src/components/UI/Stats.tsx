@@ -8,18 +8,18 @@ import {
 const stats = [
   {
     icon: <FaChalkboardTeacher />,
-    value: "15+",
+    value: "5+",
     label: "Professional Instructors",
   },
   {
     icon: <FaCalendarAlt />,
-    value: "50+",
+    value: "5+",
     label: "Classes Every Week",
   },
   {
     icon: <FaUsers />,
-    value: "800+",
-    label: "Happy Students",
+    value: "50+",
+    label: "Students",
   },
   {
     icon: <FaAward />,

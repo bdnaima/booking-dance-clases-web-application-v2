@@ -17,18 +17,17 @@ const Navbar = () => {
             Events
           </Link>
 
-          <Link to="/gallery" className="text-white">
-            Gallery
-          </Link>
-
           <Link to="/about" className="text-white">
             About
           </Link>
         </div>
 
-        <button className="bg-amber-700 text-white px-6 py-2 rounded-full hover:bg-amber-600 transition">
+        <Link
+          to="/contact"
+          className="bg-amber-700 text-white px-6 py-2 rounded-full hover:bg-amber-600 transition"
+        >
           Join Us
-        </button>
+        </Link>
       </div>
     </nav>
   );

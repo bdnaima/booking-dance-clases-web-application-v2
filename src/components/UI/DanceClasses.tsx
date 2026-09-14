@@ -48,7 +48,7 @@ const classes = [
   },
 ];
 
-const FeaturedClasses = () => {
+const DanceClasses = () => {
   return (
     <section className="bg-white py-24">
       <div className="max-w-7xl mx-auto px-6">
@@ -58,7 +58,7 @@ const FeaturedClasses = () => {
           </p>
 
           <h2 className="mt-4 text-5xl font-bold text-gray-900">
-            Find Your Perfect Dance Style
+            Find Your Dance Style
           </h2>
 
           <p className="mt-6 max-w-2xl mx-auto text-lg text-gray-500">
@@ -78,4 +78,4 @@ const FeaturedClasses = () => {
   );
 };
 
-export default FeaturedClasses;
+export default DanceClasses;

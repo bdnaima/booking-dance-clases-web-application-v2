@@ -23,10 +23,7 @@ const FeatureCard = ({
   link,
 }: FeatureCardProps) => {
   return (
-    <Link
-      to={link}
-      className="group overflow-hidden rounded-3xl bg-white shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300"
-    >
+    <div className="group overflow-hidden rounded-3xl bg-white shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
       <div className="overflow-hidden">
         <img
           src={image}
@@ -59,12 +56,15 @@ const FeatureCard = ({
         <div className="mt-8 flex items-center justify-between">
           <span className="text-xl font-bold text-purple-700">{price}</span>
 
-          <button className="rounded-full bg-purple-600 px-5 py-2 text-white transition hover:bg-purple-700">
-            Book
-          </button>
+          <Link
+            to={link}
+            className="rounded-full bg-purple-600 px-5 py-2 text-white transition hover:bg-purple-700"
+          >
+            View Class
+          </Link>
         </div>
       </div>
-    </Link>
+    </div>
   );
 };
 
