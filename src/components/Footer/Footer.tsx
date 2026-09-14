@@ -27,6 +27,11 @@ const Footer = () => {
                 Events
               </Link>
             </li>
+            <li>
+              <Link to="/about" className="hover:text-white transition">
+                About
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -34,8 +39,24 @@ const Footer = () => {
           <h3 className="font-semibold mb-4">Follow us</h3>
 
           <div className="flex gap-4 text-2xl">
-            <FaInstagram />
-            <FaFacebook />
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Instagram"
+              className="hover:text-purple-400 transition"
+            >
+              <FaInstagram />
+            </a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Facebook"
+              className="hover:text-purple-400 transition"
+            >
+              <FaFacebook />
+            </a>
           </div>
         </div>
       </div>

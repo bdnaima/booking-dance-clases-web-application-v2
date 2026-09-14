@@ -9,10 +9,6 @@ const Classes = () => {
             Dance Academy
           </p>
 
-          <h1 className="mt-4 text-5xl font-bold text-gray-900">
-            Explore Our Classes
-          </h1>
-
           <p className="mt-6 max-w-2xl mx-auto text-lg text-gray-500">
             Find a class that matches your style, level and passion for dance.
           </p>
